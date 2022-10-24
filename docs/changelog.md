@@ -1,4 +1,7 @@
 # Changelog 
+## V0.2.1 (24-10-2022)
+- Links to other pages that didn't work are now fixed
+
 ## V0.2.0 (24-10-2022)
 - Social media links work now
 
