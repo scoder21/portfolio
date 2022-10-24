@@ -20,7 +20,7 @@ window.onload = function() {
             let title = doc.data().title;
             let description = doc.data().description;
             let tagList = doc.data().tags;
-            let imgthumbnail = doc.data().imgthumbnail;
+            let imgthumbnail = doc.data().img1;
             let tags = "";
 
             tagList.forEach(tag => {

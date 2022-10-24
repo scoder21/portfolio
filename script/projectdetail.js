@@ -25,14 +25,9 @@ window.onload = function() {
         let description = doc.data().description;
         let tagList = doc.data().tags;
         let tags = "";
-        let bgimage = doc.data().imgbackground;
+        let projectImage1 = doc.data().img1;
+        let projectImage2 = doc.data().img2;
 
-
-        console.log(bgimage);
-
-        document.getElementById("bd-projectoverview").style.backgroundImage = 'linear-gradient(300deg, #92fe9d92 0%, #00c8ff92 33%, #92fe9d92 66%, #00c9ff92 100%), linear-gradient(300deg, #00000076 0%, #00000076 100%), url("' + bgimage + '")';
-backgroundImage: 'url("https://firebasestorage.googleapis.com/v0/b/portfolio-project-ee5dc.appspot.com/o/projectImages%2Fbackstage.png?alt=media&token=2915e2c3-99e7-48c8-b8ca-e6ae0176d1dd")'
-        console.log(doc.data())
         tagList.forEach(tag => {
             tags += `<p>${tag}</p>`;
         });
@@ -41,6 +36,8 @@ backgroundImage: 'url("https://firebasestorage.googleapis.com/v0/b/portfolio-pro
         document.title = `${title} | Stef Schalks`;
         document.getElementById("projectDescription").innerHTML = description;
         document.getElementById("tags").innerHTML = tags;
+        document.getElementById("img1").src = projectImage1;
+        document.getElementById("img2").src = projectImage2;
 
     });
 }
