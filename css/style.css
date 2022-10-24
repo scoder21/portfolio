@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.bd-home, .bd-aboutme, .bd-projects, .bd-contact {
+    background-image: linear-gradient(300deg, #92fe9d92 0%, #00c8ff92 33%, #92fe9d92 66%, #00c9ff92 100%), linear-gradient(200deg, #92fe9d 0%, #00c9ff 33%, #92fe9d 66%, #00c9ff 100%);
+    background-size: 500% 500%;
+    background-position: center;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, button, input, textarea, label {
+    font-family: "Poppins", sans-serif;
+}
+
+
+.bd-home .home-content {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bd-home h1 {
+    color: black;
+    margin: 0 0 0 25px;
+    font-size: 60px;
+    font-weight: 800;
+}    
+
+.bd-home p {
+    color: black;
+    margin: -20px 0 0 25px;
+    font-size: 25px;
+}
+
+.bd-home .buttongroup {
+    margin: 0 0 0 25px;
+}
+
+.bd-home .buttongroup button {
+    padding: 0 10px 0 10px;
+    height: 35px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #015332;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    border: none;
+}
+
+.bd-home .buttongroup button:hover {
+    background-color: #007a49;
+}
+
+.sidemenu {
+    width: fit-content;
+}
+
+.sidemenu a {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+}
+
+.sidemenu a p.active {
+    color: #00752f;
+}
+
+.sidemenu a p {
+    margin: 0 0 0 0;
+    font-size: 23px;
+    text-align: left;
+}
+
+.socialbar {
+    margin: 0 0 0 25px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+}
+
+.socialicon {
+    fill: black;
+    height: 30px;
+    padding: 0 5px;
+    transition: 0.3s;
+}
+
+.socialicon:hover {
+    fill: rgb(187, 187, 187);
+}
+
+.bd-aboutme h1, .bd-aboutme p {
+    text-align: center;
+    color: black;
+}
+
+.bd-aboutme .content, .bd-projectoverview .content {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
+}
+
+.bd-aboutme .content img {
+    width: calc(50% - 42px);
+    height: auto;
+    margin: 0 20px;
+}
+
+.bd-projects h1 {
+    text-align: center;
+    color: black;
+}
+
+.bd-projects .projectblock {
+    color: white;
+    width: 75%;
+    display: block;
+    margin: 10px auto;
+    background-color: #007a49;
+    height: 100px;
+}
+
+.bd-projects .projectblock .section-img {
+    width: 200px;
+    height: inherit;
+    float: left;
+    background-size: cover;
+    background-position: center;
+}
+
+.bd-projects .projectblock .section-1 {
+    float: left;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0 10px;
+    width: 45%;
+    background-color: #015332;
+}
+
+.bd-projects .projectblock h2 {
+    margin: 0 0 0 5px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.tags p {
+    margin: 0 5px;
+    background-color: #3c91e6c5;
+    backdrop-filter: blur(2px);
+    padding: 0 5px;
+    height: 22px;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.bd-projects .projectblock p.description {
+    font-size: 15px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    padding: 15px 10px;
+    height: 60px;
+}
+
+.bd-projectoverview {
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.bd-projectoverview h1, .bd-projectoverview p {
+    text-align: center;
+    color: black;
+}
+
+.bd-projectoverview .tags {
+    display: block;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.bd-contact .content {
+    text-align: center;
+}
+
+.bd-contact form {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.bd-contact label {
+    font-weight: bold;
+    text-align: left;
+    width: 100%;
+    display: block;
+    margin: 0;
+}
+
+.bd-contact input {
+    display: block;
+    font-weight: normal;
+    background-color: rgb(246, 246, 246);
+    border: 1px gray;
+    border-radius: 0;
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.bd-contact textarea {
+    display: block;
+    font-weight: normal;
+    background-color: rgb(246, 246, 246);
+    border: 1px gray;
+    border-radius: 0;
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+.bd-contact button {
+    width: 100%;
+    box-sizing: border-box;
+    height: 50px;
+    font-weight: 800;
+    background: black;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.bd-contact button:hover {
+    background: rgb(62, 62, 62);
+}
+/* Positioning Parameters */
+.menu-fixed {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+
+.bottom-fixed {
+    position: fixed;
+    bottom: 0;
+}
+
+/* Animation Classes */
+.anim_gradientbg {
+    animation-name: gradientbackground;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
