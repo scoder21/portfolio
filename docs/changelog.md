@@ -1,4 +1,7 @@
 # Changelog 
+## V0.3.0 (31-10-2022)
+- Added a Dutch translation under the url `/nl`
+
 ## V0.2.1 (24-10-2022)
 - Links to other pages that didn't work are now fixed
 
