@@ -7,3 +7,4 @@ Greetings Lusi Ryborz of the McCoughlin clan.
 Everything works, you can click good through all the pages.
 
 ## Jonas
+Very nice design, the translate button has no hover effect and the others do, kinda weird. some more hover effects over butons would make the page feel more alive and the user knows better what to click. Further the design is very clear to the eye. i noticed on the project pages you can scroll a little bit even tho there is no content to scroll to.
