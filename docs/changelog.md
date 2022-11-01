@@ -1,4 +1,8 @@
 # Changelog 
+## V0.3.1 (01-11-2022)
+- Removed horizontal overflow on all pages.
+- Removed vertical overflow on the home page.
+
 ## V0.3.0 (31-10-2022)
 - Added a Dutch translation under the url `/nl`
 

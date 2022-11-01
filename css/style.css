@@ -2,6 +2,7 @@
 
 body {
     margin: 0;
+    overflow: hidden auto;
 }
 
 a {
@@ -12,6 +13,10 @@ a {
     background-image: linear-gradient(300deg, #92fe9d92 0%, #00c8ff92 33%, #92fe9d92 66%, #00c9ff92 100%), linear-gradient(200deg, #92fe9d 0%, #00c9ff 33%, #92fe9d 66%, #00c9ff 100%);
     background-size: 500% 500%;
     background-position: center;
+}
+
+.bd-home {
+    overflow-y: hidden;
 }
 
 h1, h2, h3, h4, h5, h6, p, a, button, input, textarea, label {
