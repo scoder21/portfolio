@@ -1,4 +1,17 @@
 # Changelog 
+## V1.0.0 - Public Release (01-11-2022)
+### Added
+- Added switch language button on the home page of both the English and Dutch version of the website.
+- Added hover effect on the language switch button.
+
+### Changed
+- Updated contents of the About Me page.
+- Changed the images on the Dutch version of the about me page
+
+### Fixed
+- Fixed "Built with Firebase" badge not showing up on the Dutch version of the site.
+- Fixed the possibility to scroll on the project detail page while there was no content available.
+
 ## V0.4.1 (01-11-2022)
 - Updated the technical information section in the README.md file
 

@@ -15,7 +15,7 @@ a {
     background-position: center;
 }
 
-.bd-home {
+.bd-home, .bd-projectoverview {
     overflow-y: hidden;
 }
 
@@ -63,6 +63,26 @@ h1, h2, h3, h4, h5, h6, p, a, button, input, textarea, label {
 }
 
 .bd-home .buttongroup button:hover {
+    background-color: #007a49;
+}
+
+.bd-home .languagebutton {
+    margin: 20px 0 0 25px;
+} 
+
+.bd-home .languagebutton button {
+    padding: 0 10px 0 10px;
+    height: 35px;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #015332;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    border: none;
+}
+
+.bd-home .languagebutton button:hover {
     background-color: #007a49;
 }
 
@@ -358,6 +378,10 @@ h1, h2, h3, h4, h5, h6, p, a, button, input, textarea, label {
     .bd-home .buttongroup {
         margin: 0 0 0 0;
     }
+
+    .bd-home .languagebutton {
+        margin: 20px 0 0 0;
+    } 
     
     .bd-contact form {
         width: 75%;
