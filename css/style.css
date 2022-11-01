@@ -265,6 +265,19 @@ h1, h2, h3, h4, h5, h6, p, a, button, input, textarea, label {
     left: 20px;
 }
 
+.poweredbytxt {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0 10px 10px 0;
+    color: black;
+    font-size: 12px;
+}
+
+.poweredbytxt img {
+    height: 60px;
+}
+
 .bottom-fixed {
     position: fixed;
     bottom: 0;

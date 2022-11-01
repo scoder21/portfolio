@@ -1,4 +1,12 @@
 # Changelog 
+## V0.4.0 (01-11-2022)
+- Added "Built with Firebase" badge to the bottom of the home page
+- Added "Built with Firebase" badge to the readme file
+- Changed the images on the about me page
+- Removed the backgrounds folder and all of its images
+- Added a technical information section to the readme file
+
+
 ## V0.3.1 (01-11-2022)
 - Removed horizontal overflow on all pages.
 - Removed vertical overflow on the home page.
