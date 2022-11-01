@@ -1,4 +1,7 @@
 # Changelog 
+## V0.4.1 (01-11-2022)
+- Updated the technical information section in the README.md file
+
 ## V0.4.0 (01-11-2022)
 - Added "Built with Firebase" badge to the bottom of the home page
 - Added "Built with Firebase" badge to the readme file
