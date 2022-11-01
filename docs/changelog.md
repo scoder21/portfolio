@@ -1,4 +1,9 @@
 # Changelog 
+## V1.0.1 - (01-11-2022)
+### Added
+- Added a feedback file
+- Linked to the feedback file in the readme file
+
 ## V1.0.0 - Public Release (01-11-2022)
 ### Added
 - Added switch language button on the home page of both the English and Dutch version of the website.
